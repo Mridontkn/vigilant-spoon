@@ -1,6 +1,4 @@
-/* ------------------------------
-   GLOBAL STYLING
------------------------------- */
+
 :root {
     --soft-blue: #d8eaff;
     --soft-blue-dark: #9cc7f5;
@@ -24,9 +22,7 @@ body {
     line-height: 1.6;
 }
 
-/* ------------------------------
-   HEADER + NAV
------------------------------- */
+
 .header {
     background: var(--soft-blue-dark);
     padding: 15px 40px;
@@ -79,9 +75,6 @@ body {
     color: var(--accent-blue);
 }
 
-/* ------------------------------
-   HERO SECTION
------------------------------- */
 .hero-section {
     padding: 60px 5%;
     display: flex;
@@ -120,9 +113,6 @@ body {
     margin-bottom: 12px;
 }
 
-/* ------------------------------
-   FOOTER
------------------------------- */
 .footer {
     text-align: center;
     padding: 20px;
@@ -163,9 +153,6 @@ body {
     }
 }
 
-/* ------------------------------
-   PROJECTS PAGE STYLING
------------------------------- */
 
 .projects-grid {
     display: grid;

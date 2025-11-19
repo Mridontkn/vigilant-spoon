@@ -1,46 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Emaad Zaheer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <header>
-
+  <header class="header">
     <div class="logo-heading">
-        <img src="logowebsite.png" alt="Logo" class="logo"> 
-        <h1>Emaad Zaheer</h1>
+      <img src="logowebsite.png" alt="Logo" class="logo" />
+      <h1 class="site-title">Emaad Zaheer</h1>
     </div>
-    <nav>
-        <ul> 
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About-me.html">About me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About-me.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a class="active" href="Contact.html">Contact</a></li>
+      </ul>
     </nav>
-    </header>
-        <main>
-        <section id="about-me">
-            <div class="container">
-                <img src="EmaadZaheer.jpg" alt="Emaad Zaheer" class="me">
-                <div>
-                    <h2>Contact</h2>
-                    <p>If you would like to get in touch with me, please feel free to reach out via email. I am always open to discussing new projects and collaborations.</p>
-                    <p>Email: <a href="mailto:mridontkn@gmail.com"><p>mridontkn@gmail.com</p></a></p>
-                    <p>Phone number: 825-863-6931</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Emaad Zaheer. All rights reserved.</p>
-    </footer>
+  </header>
+
+  <main class="hero-section">
+    <div class="hero-container" style="flex-direction: column; text-align: center;">
+      <div class="hero-text">
+        <h2>Contact Me</h2>
+        <p>If you’d like to get in touch, feel free to use the form below or reach out directly.</p>
+      </div>
+
+      <div class="contact-card">
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Reach Me At</h3>
+          <p><strong>Email:</strong> mridontkn@gmail.com</p>
+          <p><strong>Phone:</strong> 825-863-6931</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Emaad Zaheer. All rights reserved.</p>
+  </footer>
 </body>
 </html>

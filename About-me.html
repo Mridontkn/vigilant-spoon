@@ -1,47 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <title>About Me | Emaad Zaheer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <div class="logo-heading">
+            <img src="logowebsite.png" alt="Logo" class="logo">
+            <h1 class="site-title">Emaad Zaheer</h1>
+        </div>
 
-    <div class="logo-heading">
-        <img src="logowebsite.png" alt="Logo" class="logo"> 
-        <h1>Emaad Zaheer</h1>
-    </div>
-    <nav>
-        <ul> 
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About-me.html">About me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="About-me.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section id="about-me">
-            <div class="container">
-                <img src="EmaadZaheer.jpg" alt="Emaad Zaheer" class="me">
-                <div>
-                    <h2>About Me</h2>
-                    <p>Hello! My name is Emaad Zaheer, and I am a passionate Web Developer and Graphic Designer currently studying at Carleton University. I have a strong interest in creating visually appealing and user-friendly websites, as well as designing graphics that effectively communicate messages.</p>
-                    <p>In my free time, I enjoy teaching and tutoring, volunteering for the community, and working on personal projects to enhance my skills. This website serves as a portfolio to showcase some of my work and provide information about my background and interests.</p>
-                    <p>Feel free to explore the site and reach out if you'd like to connect or collaborate on a project!</p>
-                </div>
+
+    <main class="hero-section">
+        <div class="hero-container">
+            <img src="EmaadZaheer.jpg" alt="Emaad Zaheer" class="profile-image">
+
+            <div class="hero-text">
+                <h2>About Me</h2>
+                <p>
+                    My name is <strong>Emaad Zaheer</strong>. I am a Web Developer and Graphic Designer studying 
+                    at Carleton University. I am passionate about building clean, user-friendly websites and 
+                    creating designs that combine creativity with functionality.
+                </p>
+
+                <p>
+                    Outside of school, I enjoy teaching, tutoring, volunteering in my community, and working 
+                    on personal projects that challenge me to grow my skills. I love improving my craft and 
+                    learning new tools and technologies.
+                </p>
+
+                <p>
+                    This website serves as a portfolio to showcase who I am, the work I’ve done, and what I’m 
+                    passionate about. Thanks for visiting — feel free to explore and reach out anytime!
+                </p>
             </div>
-        </section>
+        </div>
     </main>
-    <footer>
+
+    <footer class="footer">
         <p>&copy; 2024 Emaad Zaheer. All rights reserved.</p>
     </footer>
 </body>
 </html>
-

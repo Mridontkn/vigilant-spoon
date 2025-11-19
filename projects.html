@@ -3,53 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Projects | Emaad Zaheer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <div class="logo-heading">
-            <img src="logowebsite.png" alt="Logo" class="logo"> 
-            <h1>Emaad Zaheer</h1>
+            <img src="logowebsite.png" alt="Logo" class="logo">
+            <h1 class="site-title">Emaad Zaheer</h1>
         </div>
-        <nav>
-            <ul> 
+
+        <nav class="nav">
+            <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="About-me.html">About me</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="About-me.html">About Me</a></li>
+                <li><a class="active" href="projects.html">Projects</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="projects">
-            <div class="Projects-container">
-                <div>
-                    <h2>My Projects</h2>
-                    <p>Here are some of the projects I have worked on:</p>
-                </div>
-                <ul>
-                    <li><strong>Portfolio Website:</strong> A personal website to showcase my skills and projects. Built using HTML, CSS, and JavaScript.</li>
-                    <li><strong>Graphic Design Portfolio:</strong> A collection of graphic design works including logos, posters, and social media graphics. Created using Adobe Photoshop and Illustrator.</li>
-                </ul>
-                <div class="separator">
-                    <img src="Fin-7.png" alt="Graphic Design Portfolio" class="project-image">
-                
-                    <img src="Kendirckposter21.png" alt="yerrr" class="project-imagefinal">
-                </div>
-                <div class="balancedeeznuts">
-                
-                <p>If you would like to see my full design portfolio,</p><a href="https://docs.google.com/document/d/1nEKUUf_Feg0chCm4LFDRVXbA3yLKKRnPAFZFDqyLzZg/edit?usp=sharing" target="_blank" class="posterlink">Click here</a>
 
-                </div>
+    <main class="hero-section">
+        <div class="hero-container" style="flex-direction: column;">
+            
+            <div class="hero-text" style="text-align: center; max-width: 800px;">
+                <h2>My Projects</h2>
+                <p>
+                    Here are some of the projects I’ve worked on, including web development work and graphic design pieces.
+                </p>
             </div>
-        </section>
+
+            <!-- Project Cards Container -->
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A responsive personal portfolio built using HTML, CSS, and JavaScript.  
+                        Designed to showcase my skills, experience, and creative work.
+                    </p>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Graphic Design Portfolio</h3>
+                    <p>
+                        A collection of posters, logo designs, and visual artwork created using  
+                        Adobe Photoshop and Illustrator.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Image Gallery Section -->
+            <div class="project-gallery">
+                <img src="Fin-7.png" alt="Graphic Design Sample 1" class="project-image">
+                <img src="Kendirckposter21.png" alt="Graphic Design Sample 2" class="project-image">
+            </div>
+
+            <!-- External Link -->
+            <p style="margin-top: 25px; text-align:center;">
+                To view the full design portfolio:
+                <br>
+                <a href="https://docs.google.com/document/d/1nEKUUf_Feg0chCm4LFDRVXbA3yLKKRnPAFZFDqyLzZg/edit?usp=sharing" 
+                   target="_blank" 
+                   class="posterlink"
+                   style="font-weight: 700; color: var(--accent-blue); text-decoration: underline;">
+                    Click here
+                </a>
+            </p>
+
+        </div>
     </main>
-    <footer>
+
+    <footer class="footer">
         <p>&copy; 2024 Emaad Zaheer. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
